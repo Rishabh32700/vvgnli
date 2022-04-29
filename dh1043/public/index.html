@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>React App</title>
+        <style>
+.bg__img{
+  position: fixed;
+z-index: -1;
+width: 100vw;
+height: 100vh;
+filter: blur(10px);
+}
+
+
+.bg__img__container{
+    z-index: -1;
+    position: fixed;
+
+  width: 100vw;
+  height: 100vh;
+    /* filter:sepia(10px); */
+}
+        </style>
+    </head>
+    <body>
+        <noscript>You need to enable JavaScript to run this app.</noscript>
+        <div class="bg__img__container">
+            <img
+                class="bg__img"
+                src="./bg2.png"
+                alt=""
+                srcset=""
+            >
+        </div>
+        <div id="root"></div>
+    </body>
+</html>
